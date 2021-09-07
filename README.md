@@ -3,7 +3,7 @@ IMDb review sentiment analysis model created in TensorFlow with CNN+LSTM+GloVe T
 <br><br>
 ## Input Data
 Input data are taken from https://www.kaggle.com/ducanger/imdb-dataset. <br>
-In this project, the punctuations are taken out from the data as part of the data preprocessing.<br>
+In this project, the punctuations are taken out from the data as part of the data preprocessing. Afterwards, the words are tokenized as word indexes for model input.<br>
 ![input](https://user-images.githubusercontent.com/31713252/132416994-940815fa-c57a-4aa2-9213-855a94d7623e.jpg)
 <br><br>
 ## Word Embedding
